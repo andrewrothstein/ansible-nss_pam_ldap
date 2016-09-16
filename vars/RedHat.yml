@@ -1,0 +1,4 @@
+---
+nss_pam_ldap_dep_pkgs:
+  - nss-pam-ldapd
+  - nscd
