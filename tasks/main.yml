@@ -13,7 +13,6 @@
 - name: install pkgs
   become: yes
   become_user: root
-  with_items: '{{ nss_pam_ldap_dep_pkgs }}'
   package:
-    name: '{{ item }}'
+    name: '{{ nss_pam_ldap_dep_pkgs }}'
     state: present
