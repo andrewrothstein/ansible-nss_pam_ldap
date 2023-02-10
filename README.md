@@ -1,6 +1,6 @@
 andrewrothstein.nss-pam-ldap
 ============================
-[![Build Status](https://travis-ci.org/andrewrothstein/ansible-nss-pam-ldap.svg?branch=master)](https://travis-ci.org/andrewrothstein/ansible-nss-pam-ldap)
+![Build Status](https://github.com/andrewrothstein/ansible-nss-ldap-pam/actions/workflows/build.yml/badge.svg)
 
 Installs packages to allow for setting up NSS with LDAP.
 

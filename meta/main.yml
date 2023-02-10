@@ -15,23 +15,21 @@ galaxy_info:
         - all
     - name: Debian
       versions:
+        - bullseye
         - buster
-        - stretch
     - name: EL
       versions:
-        - 7
         - 8
+        - 9
     - name: Fedora
       versions:
-        - 31
-        - 32
+        - 36
+        - 37
     - name: Ubuntu
       versions:
         - bionic
         - focal
-        - xenial
+        - jammy
   galaxy_tags:
     - nss
     - ldap
-
-dependencies: []
